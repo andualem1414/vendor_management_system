@@ -73,7 +73,17 @@ Or, Delete db.sqlite3 run `python manage.py makemigrations` and createsuperuser
 
 Performance Metrics
   - `GET /api/vendors/{vendor_id}/performance/`        Retrieve Performance metrics for a vendor
-  
+```bash
+{
+    "id": 3,
+    "date": "2024-04-30T17:10:05.821995Z",
+    "on_time_delivery_rate": 0.0,
+    "quality_rating_avg": 9.0,
+    "average_response_time": 808361.0,
+    "fullfillment_rate": 0.33,
+    "vendor": 5
+}
+``` 
 
 
 
