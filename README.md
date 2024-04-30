@@ -31,6 +31,8 @@ Before you test, get your access token and refresh token at
       
 INCLUDE ACCESS TOKEN ON EVERY REQUEST
 
+Or, Delete db.sqlite3 run `python manage.py makemigrations` and createsuperuser
+
 ## API documentation
 ### Vendor
   - `POST /api/vendors/`    Create a new vendor.
@@ -75,5 +77,4 @@ Performance Metrics
 
 
 
-  
 
